@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-responsive.css">
+
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+
+		<script type="text/javascript">
+
+     function validar() {
+       
+        var nome = entrar_contato.nome.value;
+        var email = entrar_contato.mail.value;
+        var Aphelios = entrar_contato.Aphelios.value;
+
+
+
+     
+
+      if (nome,  email, Aphelios ) {
+        alert("Sua mensagem foi enviada");
+       
+      }
+
+
+
+
+
+    }
+	
+
+
+
+	</script>
+
+
+	<title>Contato</title>
+</head>
+
+<body>
+
+	<!-- css e html utilizados para criação do menu retirados do site https://globocom.github.io/bootstrap/index.html-->
+<a name="top"></a>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="index.html">HDWE</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="podutos.html">Produtos</a></li>
+              <li class="active"><a href="Contato.html">Contato</a></li>
+            
+
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <br/>
+    <br/>
+    <br>
+
+    <br>
+    <br>
+
+    <div class="FC">
+    	
+
+   	<form name="entrar_contato" action="Contato.html" method="POST" >
+
+   		<label>Nome:</label><input type="texto" name="nome" required placeholder="Digite seu nome"/>
+
+   		<br><br>
+
+
+   		<label>E-mail:</label><input type="email" name="mail" placeholder="Digite seu E-mail" required/>
+
+   		<br><br>
+
+
+   		<textarea rows="10" placeholder="Digite sua mensagem" name="Aphelios" required></textarea>
+
+   		<br><br>
+
+   		<button type="submit" onclick="return validar()"> Enviar</button>
+   		
+   	</form>
+
+   
+
+
+
+   <br> <div style="  
+  font-size: 25px; height: 95px;">
+    <br>
+
+  </div>
+   
+
+
+
+
+   
+
+</body>
+</html>
+   
